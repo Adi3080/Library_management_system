@@ -1,0 +1,39 @@
+1. Project Title:
+Library Management System using PostgreSQL and pgAdmin
+
+2. Introduction:
+This project aims to build a digital library system that tracks book loans, members, and overdue notifications using PostgreSQL and pgAdmin. The database supports basic CRUD operations, views, triggers, and analytical reports.
+
+3. Abstract:
+The Library Management System is a relational database designed to manage books, authors, members, and loans. It includes functionality to track overdue books, generate reports using SQL queries, and notify users through triggers. The system helps in efficient digital management of a small to medium-sized library with accurate records and data insights.
+
+4. Tools Used:
+PostgreSQL – For database engine
+
+pgAdmin – For database management GUI
+
+SQL – For writing schema, queries, triggers, and views
+
+Graphviz – For ERD diagram generation
+
+VS Code / Notepad++ – For writing .sql scripts
+
+🔹 Page 2
+5. Steps Involved in Building the Project:
+Schema Design – Created tables for Authors, Books, Members, Loans, and a bridge table for Book-Author relationships.
+
+Data Insertion – Inserted sample test data for all entities using SQL INSERT statements.
+
+Many-to-Many Handling – Handled multiple authors per book via BookAuthors bridge table.
+
+Views Creation – Built views for currently borrowed and overdue books.
+
+Trigger Setup – Implemented a trigger to insert notifications when a book is overdue.
+
+Reporting Queries – Generated reports using JOIN, GROUP BY, and aggregate functions (e.g. most borrowed books).
+
+ERD Generation – Created ERD to represent relationships visually.
+
+6. Conclusion:
+The Library Management System provides a robust and extensible solution for managing digital libraries. It demonstrates core SQL features such as schema design, relationships, triggers, and report generation. The project improves understanding of database normalization, SQL optimization, and data handling through practical implementation.
+
